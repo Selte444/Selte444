@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth child</title>
+    <style>
+        /* p{
+            font-size: 1.5em;
+        }
+        p:first-child{
+            background: blueviolet;
+            color: aliceblue;
+        }
+        
+         p:last-child{
+            background: blueviolet;
+            color: aliceblue;
+        }
+
+        p:nth-child(2){
+            color: blue;
+        }
+        p:nth-child(3){
+            color: brown;
+        } */
+        /* p:nth-child(even){
+            color: red;
+        }
+        p:nth-child(odd){
+            color: blue;
+        } */
+
+        ul{
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+        ul li:nth-child(2n){
+            color: gray;
+        }
+        ul li:nth-child(2n+1)
+        {
+            color: blueviolet;
+        }
+        ul li:nth-child(n+4)
+        {
+            background-color: rgb(60, 29, 89);
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, dolore.
+    </p>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, dolore.
+    </p>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, dolore.
+    </p>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, dolore.
+    </p>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, dolore.
+    </p> -->
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+    </ul>
+</body>
+</html>

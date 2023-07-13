@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="https://storage.acerapps.io/app-1/public/20220929/favicon.jpg">
+    <link rel="stylesheet" href="https://use.typekit.net/cbo4hap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://storage.acerapps.io/app-1232/public/20221004/bootstrap.css">
+    <link href="/dist/main.css" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        #navbar{
+            background-color: #007;
+            width: 100%;
+            height: 85px;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #countainer{
+            max-width: 1200px;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            text-align: center;
+            padding: 10px ;
+            margin: auto;
+        }
+        nav div div ul{
+            display: flex;
+            padding: 1em;
+
+        }
+        nav div div ul li{
+            padding: 0 2em;
+        }
+        a{
+            color: #999;
+            font-size: 1em;
+        }
+        a:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+        #resim{ 
+            width: 100%;
+            object-fit: none;
+            height: auto;
+            position: absolute;
+            
+        }
+        #kaplamaR{
+            min-width: 300px;
+            min-height: 220px;
+            background-color: #009;
+            opacity: 0.7;
+            display: block;
+            position: absolute;
+            margin:  10% 25%;
+            padding: 1em;
+            text-align: center;
+        }
+        @media (max-width:1200px) {
+            nav div div ul li{
+            margin: 0;
+            }
+            li{
+                visibility: hidden;
+
+            }
+            #countainer{
+                margin: 0;
+            } 
+            #marka{
+                width: 190px;
+                padding: 10px 10px;
+            }   
+            #countainer{
+                margin: 0;
+            }    
+        }
+        #ayarlama{
+            position: relative;
+            color: #fff;
+        }
+        #dFB{
+           color: #fff; margin: auto; border: 2px solid #fff; padding: 1em; display: block; color: #fff; background: #00f; opacity: 0.5; width: 222px; height: 55px;
+        }
+        #dFB:hover{
+            background-color: #007;
+            opacity: 1;
+            color: #fff ;
+            border: 2px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <nav id="navbar">
+            <div id="">
+                <div id="countainer">
+                    <img id="marka" src="https://storage.acerapps.io/app-1232/public/20220929/logo.svg" alt="">
+                    <ul>
+                        <li><span class=""><i class="icon-team pr-1"></i></span> <a href="">Kurumsal</a></li>
+                        <li><a href="">Özel Bağlantılar</a></li>
+                        <li><a href="">Haberler</a></li>
+                        <li><a href="">Nevşehir</a></li>
+                        <li><a href="">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="ayarlama" >
+            <img id="resim" src="n_8964_m.png" alt="">
+            <div id="kaplamaR">
+                <div style= "text-align: center; font-size: 2.5em; padding: 5px;" >
+                    Olağan Genel Kurul Çağrısı
+                </div>
+                <div style="padding: 3px;">
+                    Nevşehirli Bürokratlar ve İş İnsanları Derneği (NEVBİAD) Olağan Genel Kurul Toplantısı 29 Ekim Cumartesi günü yapılacaktır.
+                </div>
+                <div style="padding: 2em; text-align: center;">
+                    <a id="dFB" href="" >Detaylı Bilgi Al</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+</html>

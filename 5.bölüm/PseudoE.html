@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        /* .para1::first-line{
+            color: rgb(255, 000, 000);
+        }
+        .para1::first-letter{
+            color: rgb(000, 000, 255);
+            font-size: 25px;
+        } */
+        .para1::after{
+            content: "Paragraf sonrası";
+        }
+        .para1::before{
+            content: "Paragraf öncesi";
+        }
+
+    </style>
+</head>
+<body>
+    <p class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias ad voluptate commodi voluptatum aliquid. Sit fugit neque, enim quia ab incidunt dolore, ex illum voluptatibus ipsum ratione alias ducimus. Itaque doloremque numquam illo, iste iure unde et earum odio voluptates incidunt at atque in. Ex quis iusto modi repellendus quas?</p>
+</body>
+</html>
