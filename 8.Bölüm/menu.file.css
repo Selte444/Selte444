@@ -1,0 +1,37 @@
+.menu{
+    display: block;
+    position: relative;
+
+}
+ .menu li{
+    float: left;
+    display: none;
+}
+.menu li a{
+    display: block;
+    font-size: 14px;
+    color: #000;
+    padding:  0 15px;
+    line-height: 50px;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.menu ul{
+    background: #6666ff;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+
+}
+ .menu ul li a{
+    display: block;
+    padding: 7px 12px;
+    color: #fff;
+    font-size: 14px;
+    
+}
+.menu li:hover{
+    display: block;
+}

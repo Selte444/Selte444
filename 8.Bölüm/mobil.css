@@ -1,0 +1,174 @@
+
+
+/* navbar */
+#navbar{
+    flex-direction: column;
+    text-align: center;
+}
+#navbar .countainer{
+    flex-direction: column;
+}
+#navbar .countainer div button{
+    padding: 10px 10%;
+}
+/* header */
+header .countainer{
+    flex-direction: column;
+    text-align: center;
+}
+header .countainer div{
+    width: 300px;
+    max-width: 600px;
+}
+#resimA{
+    width: 300px;
+}
+
+body .countainer .ekstra2 .box2{
+    margin: 20px -40px ;
+
+}
+body .countainer .bolum1{
+    flex-direction: column;
+    margin: 0 30%;
+}
+body .countainer .bolum1 .parca .text-boyut{
+    width: 340px;
+    margin:  0 0 15px 5%;
+}
+body .countainer .bolum1{
+    margin: 0 7% ;
+}
+.foto1{
+    text-align: left;
+}
+body .countainer .bolum1 .parca div button{
+    padding: 7px ;
+    margin: 10px 2px;
+}
+
+body .countainer .genel {
+    text-align: center;
+}
+body .countainer .genel {
+    text-align: left;
+
+}
+body .countainer .genel .text2 .B1D {
+    max-width: 120px;
+    margin: 0 ;
+}
+body .countainer .genel .text2  {
+    max-width: 120px;
+    margin: 0 0 0 20%;
+}
+
+
+body .ekstra6 .countainer .Btext{
+    width: 300px;
+    margin: 20px 10%;
+}
+
+body .ekstra6 .countainer .button2{
+    width: 200px;
+    text-align: center;
+    margin: 0 10%;
+
+}
+
+body .ekstra6 .countainer .gcountainer {
+    width: 400px;
+    text-align: center;
+    margin: 0 30px;
+    text-align: left;
+}
+
+body .ekstra6 .countainer .boxs  {
+    display: flex;
+    flex-direction: column;
+}
+body .ekstra6 .countainer .boxs .box2  {
+    margin: 0 30%;
+    width: 250px;
+    height: 250px;
+}
+#topFotoA{
+    width: 300px;
+    margin: 40px;
+}
+body .ekstra7 .countainer .text{
+    opacity: 0.8;
+    margin: 15px;
+    font-size: x-small;
+}
+body .ekstra7{
+    width: 300px;
+    margin: 100px 15px ;
+}
+body .ekstra6 .countainer {
+    max-width: 1400px;
+    margin: 0 30%;
+    text-align: left;
+}
+body .ekstra7 {
+    width: 300px;
+    margin: 100px 20%;
+}
+body .countainer .bolum1 {
+    display: flex;
+    max-width: 300px;
+}
+body .countainer .ekstra5 {
+    width: 320px;
+    margin: 0 20% 0 0%;
+}
+body .ekstra7 .amblemY .amblem1B {
+    width: 200px;
+    top: -100px;
+    position: absolute;
+    left: 60px;
+}
+#topFotoA {
+    width: 250px;
+    margin: 40px 0 0 0;
+}
+#parcalar {
+    width: 200px;
+    height: 30px;
+    margin: 15px 0 15px 0%;
+}
+
+element.style {
+    width: 150px;
+}
+body .ekstra7 .countainer .buttonlqa {
+    margin: 0 60px;
+    border-radius: 5px;
+}
+#baxs {
+    width: 200px;
+    height: 40px;
+}
+body .ekstra6 .countainer .boxs .box2 {
+    margin: 0 10%;
+    width: 250px;
+    height: 250px;
+}
+.boyut{
+    margin: -30px;
+}
+body .countainer .boyut {
+    margin: 0 0 0 30%;
+}
+body .ekstra7 .amblemY .amblem1B {
+    width: 200px;
+    top: -100px;
+    position: absolute;
+    left: 0px;
+}
+header .countainer .countainer2{
+    padding: 45% 0;
+}
+#navbar{
+    width: 80%;
+}

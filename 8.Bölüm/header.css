@@ -1,0 +1,33 @@
+header .countainer{
+    display: flex;
+    max-width: 1400px;
+    justify-content: center;
+    align-items:center ;
+}
+.yarim{
+    flex-direction: row;
+}
+#resimA{
+    width: 400px;
+    border-radius: 10px;
+}
+
+header .countainer div { 
+    justify-content: space-between;
+    padding: 0rem;
+    line-height: 30px;
+}
+header .countainer div{
+    max-width: 290px;
+}
+#navbar{
+    width: 100%;
+    background: #F1F5F9;
+    z-index: 999;
+}
+#navbar:hover{
+    opacity: 1;
+}
+header .countainer .countainer2{
+    padding: 20% 0;
+}

@@ -1,0 +1,27 @@
+#navbar{
+    margin: 0.5rem 0;
+}
+
+#navbar .countainer{
+    display: flex;
+    max-width: 1500px;
+    justify-content: center;
+    align-items:center ;
+}
+#navbar .countainer ul{
+    display: flex;
+
+}
+#navbar .countainer div{
+    display: flex;
+}
+#navbar .countainer ul li{
+    padding: 0.5rem;
+}
+
+#anasayfaT{
+    color: #358DFE;
+}
+#navbar{
+    margin: 0;
+}

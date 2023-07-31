@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    display: inline-block;
+}
+.btn{
+    padding: 10px 20px;
+    border: 1px solid #6666ff;
+    letter-spacing: 0.3px;
+    border-radius: 25px;
+}
+.btn-backC{
+    background: #F1F5F9;
+    margin: 0 0.6rem 0 0rem;
+}
+.btn-backC:hover{
+    background: #fff;
+    color: #281818a8;
+    border: 1px solid #6666ff;
+}
+.btn-bluC{
+    background: #6666ff;
+    color: #e0e0ff;
+}
+.btn-bluC:hover{
+    background: #e0e0ff;
+    color: #2011119e;
+}
+.fontAndOpc{
+    font-size: 0.75rem;
+    opacity: 0.6;
+    letter-spacing: 0.5px;
+}
+.big-font{
+    font-size:1.5rem;
+}
+.med-font{
+    font-size: medium;
+}
+.small-font{
+    font-size: small;
+}
+.ekstra .countainer{
+display: flex;
+max-width: 1400px;
+justify-content: center;
+align-items:center;
+margin: 0 0%;
+
+}
+.box{
+    width: 120px;
+    height: 100px;
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.box:hover{
+    box-shadow: 2px 2px 2px;
+}
+.amblem{
+
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 25%;
+}
+.amblem{
+    width: 30px;
+    height: 30px;
+    background: #6666ff;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 3px 1px;
+}
+.box p{
+    font-size: 0.75rem;
+    margin: 30px 0 0 0;
+}
+body .bulanikArkpl{
+    background: #88c8ba;
+    border-radius: 100%;
+    height: 290px;
+    width: 400px;
+    z-index: -1;
+
+
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+    filter: blur(50px);
+    opacity: 1;
+    position: relative;
+    right: 280px;
+    z-index: -2;
+}
+body .ekstra{
+    max-width: 1400px;
+}
+body .ekstra div img{
+    display: block;
+    width: 150px;
+    margin: 0 30%;
+    max-width: 1400px;
+}
+body .countainer{
+    max-width: 1000px;
+}
+body .countainer .maviY{
+    color:#358dfe ;
+
+}
+body .countainer .amblem2{
+    width: 60px;
+    height: 60px;
+    background: #6666ff;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 5px 1px;
+    margin: 0 0 0 30px;
+}
+
+body .countainer .ekstra2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30%;
+}
+body .countainer .ekstra2 .box2{
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+body .countainer .ekstra2 .ince-ayar{
+    margin: 13% 0;
+}
+body .countainer .ekstra6{
+    text-align: center;
+}
+.sayisi{
+    text-align: center;
+}
+body .countainer .ok2{
+    margin: 0 140px 0 0;
+}
+body .countainer .ortalama{
+    max-width: 1400px;
+    display: flex;
+    margin: 0;
+
+}
+body .countainer .bolum1{
+    display: flex;
+
+    max-width: 1400px;
+    margin: 0 30%;
+}
+
+
+body .countainer .bolum1 .parca{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+}
+body .countainer .bolum1 .parca .sayisi{
+    background: #000;
+    width: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+body .countainer .bolum1 .parca .baslik{
+    margin: 20px ;
+    color: #000;
+    width: 30px;
+}
+body .countainer .bolum1 .parca .text{
+    opacity: 0.6;
+    margin: 29px;
+}
+body .countainer .bolum1 .parca .text{
+    width: 300px;
+}
+body .countainer .bolum1 .parca{
+    width: 600px;
+}
+body .countainer .bolum1 .sayisi{
+    background: #000;
+    width: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+body .countainer .bolum1 .Fkl{
+    display: flex;
+    flex-direction: column;
+}
+body .countainer .bolum1 .parca div button{
+    margin: 0 0 20px 0;
+}
+body .countainer .ekstra5{
+    width: 600px;
+    margin:  0 20% 0 0%;
+}
+body .ekstra3 .countainer{
+
+    display: flex;
+    margin: 60px 10%;
+    max-width: 1400px;
+
+}
+body .ekstra3 .countainer .box2{
+    width: 120px;
+    margin: 0 30px;
+    text-align: start;
+}
+body .ekstra3 .countainer .box2 .amblem2{
+    margin: 0;
+}
+body .ekstra3 .countainer .box2 .text-boyut2 .text{
+    width: 160px;
+}
+body .ekstra3 .countainer .box2 .text-boyut2 div{
+    opacity: 0.5;
+    font-size: smaller;
+}
+body .countainer .genel .text2  .B1D{
+    width: 120px;
+}
+
+
+body .ekstra4 .countainer{
+    max-width: 1400px;
+    margin: 0 10%;
+
+}
+body .ekstra4 .countainer .countainer .text2{
+    display: flex;
+    flex-direction:row ;
+}
+
+
+body .countainer .countainer .text2 .amblem2{
+    width: 40px;
+    height: 40px;
+    margin:0 0 0 25px;
+}
+body .countainer .countainer .text2 .düzenlemeA1{
+    margin: 9rem 3rem 0 0;
+}
+body .countainer .countainer .text2 .amblem2 div{
+    margin: 5px 0 0 0;
+}
+body .countainer .countainer div{
+    margin: 0 20px 0 0;
+}
+body .countainer .countainer .text2 .B1D{
+    width: 120px;
+}
+
+body .countainer .genel{
+    display: flex;
+}
+body .countainer .text2 .amblem2{
+    width: 40px;
+    height: 40px;
+}
+body .countainer .text2 .amblem2 div{
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 0 0;
+}
+body .countainer .genel .text2 .B1D {
+    max-width: 120px;
+    margin: 0 100px;
+}
+body .countainer .genel .text2 .B1D #ok3{
+    max-width: 120px;
+    margin: 0;
+}
+body .ekstra6 .countainer .boxs  {
+    display: flex;
+}
+body .ekstra6 .countainer .boxs .box2  {
+    margin: 0px 0 0 -20px;
+    width: 220px;
+    height: 260px;
+}
+body .ekstra6 .countainer {
+    max-width: 1400px;
+    margin: 0 10%;
+    text-align: left;
+}
+body .ekstra6 .countainer .yazitop{
+    width: 300px;
+    position: absolute;
+}
+body .ekstra6 .countainer .yazitop #yazi {
+    position: relative;
+    left:80px;
+    z-index: 1;
+}
+body .ekstra6 .countainer .gcountainer {
+    width: 400px;
+    text-align: center;
+    margin: 0 20%;
+}
+body .ekstra6 .countainer .yazitop #top {
+    position: relative;
+    left: 10px;
+}
+body .ekstra6 .countainer .Btext{
+    width: 500px;
+    margin: 20px 15%;
+}
+body .ekstra6 .countainer .button2{
+    width: 400px;
+    text-align: center;
+    margin: 0 20%;
+
+}
+body .ekstra6 .countainer .box2 #Stock-photo{
+    position: absolute;
+}
+body .ekstra6 .countainer .box2 .renklendirme{
+    opacity: 0.5;
+    position: relative;
+    top: -310px;
+}
+body .ekstra6 .countainer .box2 p{
+    position: relative;
+    top: -570px;
+    left: 30px;
+    color: #fff;
+}
+
+#topFotoA{
+    width: 400px;
+}
+
+body .ekstra7{
+    margin: 100px 30% 0 ;
+}
+body .ekstra7 .countainer .baslik{
+    width: 1400px;
+}
+body .ekstra7 .amblemY{
+    margin:0px 0;
+    position: absolute;
+}
+body .ekstra7 .amblemY .amblem1B .amblem1BA{
+    width: 100px;
+    position: relative;
+    left: 80px;
+}
+body .ekstra7 .amblemY .amblem1B .amblemIA{
+    width: 50px;
+}
+body .ekstra7 .amblemY .amblem1B{
+    width:400px;
+    top: -100px;
+    position: absolute;
+    left: 60px;
+}
+body .ekstra7 .countainer .text{
+    opacity: 0.8;
+    margin: 15px 0;
+}
+body .ekstra7 .countainer .buttonlqa{
+    margin: 0 120px;
+    border-radius: 5px;
+}
+body .ekstra8 .countainer .iletisim{
+    max-width: 1600px;
+    margin: 50px 10%;
+}
+body .ekstra8 .countainer .iletisim {
+    display: flex;
+}
+body .ekstra8 .countainer .iletisim .I1bolum{
+    margin: auto;
+}
+body .ekstra8 .countainer .iletisim .I1bolum #logoL,
+body .ekstra8 .countainer .iletisim .I1bolum p{
+    width: 150px;
+    opacity: 0.7;
+}
+body .ekstra8 .countainer .iletisim .I1bolum img{
+    width: 20px;
+}
+body .ekstra8 .countainer .iletisim .I1bolum ul li{
+    opacity: 0.5;
+}
+#parcalar{
+    width: 400px;
+    height: 30px;
+    margin: 15px 0 0 0%;
+}
+#baxs{
+    width: 400px;
+    height: 40px;
+}
+.brbr{
+     text-align: center;
+     margin: 0 0 0 0%;
+}
+body .countainer .boyut {
+    margin: 0 0 0 45%;
+}

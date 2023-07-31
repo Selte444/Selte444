@@ -1,0 +1,181 @@
+/* navbar */
+#navbar{
+    flex-direction: column;
+}
+#navbar .countainer{
+    flex-direction: column;
+}
+#navbar .countainer div button{
+    padding: 10px 15%;
+}
+/* header */
+header .countainer{
+    flex-direction: column;
+}
+header .countainer div{
+    width: 500px;
+    max-width: 600px;
+}
+
+body .countainer{
+    flex-direction: column;
+}
+body .countainer .box{
+    width: 300px;
+}
+body .countainer .box2 {
+    position: relative;
+    left: 0%;
+}
+body .countainer .ekstra2{
+    flex-direction: column;
+    margin:0 0 0 40px ;
+    position: relative;
+    left: 35%;
+    width: 300px;
+}
+body .ekstra div img{
+    display: none;
+}
+ody .countainer .boyut {
+    margin: 0 0 0 10%;
+}
+body .countainer .boyut {
+    margin: 0 0 0 40%;
+}
+.amblem{
+    left: 45%;
+}
+body .countainer .bolum1{
+    flex-direction: column;
+    margin: 60px 0 0 40% ;
+
+}
+body .countainer .bolum1 .parca{
+    width: 400px;
+}
+body .countainer .bolum1 .parca .text-boyut{
+    width: 400px;
+    margin:  0 0 10px 0;
+}
+
+body .countainer .bolum1 .parca .baslik{
+    margin: 0 20% ;
+}
+body .countainer .bolum1 .parca .ayarlamafotoq{
+    text-align: left;
+}
+body .countainer .bolum1 .parca .button{
+    text-align: left;
+}
+body .countainer .bolum1 .parca div button{
+    padding: 10px 7%;
+}
+body .countainer .bolum1 .parca div button{
+    padding: 7px ;
+    margin: 0 3px;
+}
+body .countainer .bolum1 .parca .text-boyut div{
+    width: 300px;
+    margin:  0;
+}
+
+body .countainer .ok2{
+    visibility: hidden;
+}
+
+body .ekstra3 .countainer{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 40%;
+}
+body .ekstra3 .countainer .box2{
+    width: 120px;
+    margin: 20px 0 20px 0%;
+    text-align: start;
+
+}
+body .ekstra3 .countainer .box2 .amblem2{
+    margin: 0;
+}
+body .ekstra3 .countainer .box2 .text-boyut2 .text{
+    width: 160px;
+}
+body .ekstra3 .countainer .box2 .text-boyut2 div{
+    opacity: 0.5;
+    font-size: smaller;
+}
+#ok3{
+    visibility: hidden;
+}
+#resimB{
+    text-align: left;
+}
+body .ekstra4 .countainer{
+    margin: 0 20%;
+}
+body .ekstra4 .countainer .countainer .text2{
+    flex-direction: column;
+
+}
+
+body .countainer .genel {
+    text-align: left;
+}
+body .countainer .genel .text2{
+    max-width: 120px;
+    margin: 0 0 0 5% ;
+}
+
+
+
+body .countainer .genel {
+    text-align: center;
+}
+body .countainer .genel {
+    text-align: left;
+
+}
+body .countainer .genel .text2 .B1D {
+    max-width: 120px;
+    margin: 0 ;
+}
+body .countainer .genel .text2  {
+    width: 80px;
+    margin: 0 0 0 20%;
+}
+
+
+body .ekstra6 .countainer .Btext{
+    width: 500px;
+    margin: 20px  0 0 10%;
+}
+
+
+
+
+body .ekstra6 .countainer .boxs  {
+    display: flex;
+    flex-direction: column;
+}
+body .ekstra6 .countainer .boxs .box2  {
+    margin: 0 0 0 40%;
+    width: 250px;
+    height: 250px;
+}
+
+body .ekstra8 .countainer .iletisim {
+    display: flex;
+    flex-direction: column;
+}
+body .ekstra8 .countainer .iletisim .I1bolum{
+    margin: 20px auto ;
+}
+.brbr{
+    text-align: center;
+    margin: 0 0 0 0%;
+}
+header .countainer .countainer2{
+    padding: 30% 0;
+}
